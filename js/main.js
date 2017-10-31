@@ -1,4 +1,4 @@
-var config = require('../config.json');
+// var config = require('../config.json');
 
 // Generate random room name
 if(!location.hash) {
@@ -21,7 +21,7 @@ var configuration = {
 
 var roomName = 'observable-' + roomHash;
 var room;
-var drone = new ScaleDrone(config.SCALEDRONE_CHANNEL_ID);
+var drone = new ScaleDrone('IKvvontbTUhXjvZR');
 var peerConnection;
 var isOfferer;
 
